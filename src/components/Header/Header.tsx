@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
+import './header.module.css';
 
 const Header = () => {
   return (
-    <header id='header'>
+    <header className='header'>
       <div className='logo-row'>
         <a href='#' className='main-logo'>
           <Image alt='Brooch' src='/icons/icons-sprite/main-logo.svg' width={30} height={30} />
